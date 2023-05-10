@@ -106,6 +106,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@next/react-refresh-utils@npm:^13.4.1":
+  version: 13.4.1
+  resolution: "@next/react-refresh-utils@npm:13.4.1"
+  peerDependencies:
+    react-refresh: 0.12.0
+    webpack: ^4 || ^5
+  peerDependenciesMeta:
+    webpack:
+      optional: true
+  checksum: 387eae217f3d0cf878c3ac04bd9658a28d8e5bb2454ad906e42129fb9679f68f2c1c5ed81c8a9320ed3b33d5b82b5a16adbaeb9da9d6db5b413577af435873ff
+  languageName: node
+  linkType: hard
+
 "@next/swc-darwin-arm64@npm:13.4.1":
   version: 13.4.1
   resolution: "@next/swc-darwin-arm64@npm:13.4.1"
@@ -2704,6 +2717,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "next-playground@workspace:."
   dependencies:
+    "@next/react-refresh-utils": ^13.4.1
     "@types/node": 20.1.1
     "@types/react": 18.2.6
     "@types/react-dom": 18.2.4
