@@ -24,16 +24,16 @@ RUN apk add jq \
     && yarn
 
 FROM base AS runner
-WORKDIR /app
 ENV NODE_ENV production
 ENV PORT 3000
 RUN addgroup --system --gid 1001 nodejs \
     && adduser --system --uid 1001 nextjs
+USER nextjs
+WORKDIR /app
 COPY --from=builder /app/public ./public
 COPY --from=builder --chown=nextjs:nodejs /app/.next ./.next
 COPY --from=builder --chown=nextjs:nodejs /app/package.json /app/yarn.lock /app/.pnp* ./
 COPY --from=builder --chown=nextjs:nodejs /app/.yarn ./.yarn
 
-USER nextjs
 EXPOSE 3000
 CMD ["yarn", "start"]
