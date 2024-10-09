@@ -114,15 +114,15 @@ __metadata:
   linkType: hard
 
 "@next/react-refresh-utils@npm:^13.4.1":
-  version: 13.4.7
-  resolution: "@next/react-refresh-utils@npm:13.4.7"
+  version: 13.5.7
+  resolution: "@next/react-refresh-utils@npm:13.5.7"
   peerDependencies:
     react-refresh: 0.12.0
     webpack: ^4 || ^5
   peerDependenciesMeta:
     webpack:
       optional: true
-  checksum: 95097fbacc155e9f349da339fa6a0ab8219d8acd31f676df3b665c9ceaa1278d9037e4b24db025913ff40906e912710f8f61654278d7f6e85646cc20a16b8cc0
+  checksum: 45df5b6c7187b7d53941fe64e368705cc3fb0ac24182c4de44f6e92f7aa42eaf9e28a12ac52b1bbce84c98dd15b25be6da14410660ef91d9d7a0b2536b6bc318
   languageName: node
   linkType: hard
 

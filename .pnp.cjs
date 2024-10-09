@@ -28,7 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@next/react-refresh-utils", "virtual:3e9b84b5bfb264b7dc6f968baf27f41ff74bd8a1ed1d260216ae9d595bea331df8cf2ac1446f592087369b97d835c4be5fe713ec27a603efb8db126bcc8c1a6a#npm:13.4.7"],\
+            ["@next/react-refresh-utils", "virtual:3e9b84b5bfb264b7dc6f968baf27f41ff74bd8a1ed1d260216ae9d595bea331df8cf2ac1446f592087369b97d835c4be5fe713ec27a603efb8db126bcc8c1a6a#npm:13.5.7"],\
             ["@types/node", "npm:20.1.1"],\
             ["@types/react", "npm:18.2.14"],\
             ["@types/react-dom", "npm:18.2.6"],\
@@ -194,17 +194,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@next/react-refresh-utils", [\
-        ["npm:13.4.7", {\
-          "packageLocation": "./.yarn/cache/@next-react-refresh-utils-npm-13.4.7-3832b93adb-95097fbacc.zip/node_modules/@next/react-refresh-utils/",\
+        ["npm:13.5.7", {\
+          "packageLocation": "./.yarn/cache/@next-react-refresh-utils-npm-13.5.7-cf517bcd4b-45df5b6c71.zip/node_modules/@next/react-refresh-utils/",\
           "packageDependencies": [\
-            ["@next/react-refresh-utils", "npm:13.4.7"]\
+            ["@next/react-refresh-utils", "npm:13.5.7"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:3e9b84b5bfb264b7dc6f968baf27f41ff74bd8a1ed1d260216ae9d595bea331df8cf2ac1446f592087369b97d835c4be5fe713ec27a603efb8db126bcc8c1a6a#npm:13.4.7", {\
-          "packageLocation": "./.yarn/__virtual__/@next-react-refresh-utils-virtual-4320d90d1d/0/cache/@next-react-refresh-utils-npm-13.4.7-3832b93adb-95097fbacc.zip/node_modules/@next/react-refresh-utils/",\
+        ["virtual:3e9b84b5bfb264b7dc6f968baf27f41ff74bd8a1ed1d260216ae9d595bea331df8cf2ac1446f592087369b97d835c4be5fe713ec27a603efb8db126bcc8c1a6a#npm:13.5.7", {\
+          "packageLocation": "./.yarn/__virtual__/@next-react-refresh-utils-virtual-432ca12559/0/cache/@next-react-refresh-utils-npm-13.5.7-cf517bcd4b-45df5b6c71.zip/node_modules/@next/react-refresh-utils/",\
           "packageDependencies": [\
-            ["@next/react-refresh-utils", "virtual:3e9b84b5bfb264b7dc6f968baf27f41ff74bd8a1ed1d260216ae9d595bea331df8cf2ac1446f592087369b97d835c4be5fe713ec27a603efb8db126bcc8c1a6a#npm:13.4.7"],\
+            ["@next/react-refresh-utils", "virtual:3e9b84b5bfb264b7dc6f968baf27f41ff74bd8a1ed1d260216ae9d595bea331df8cf2ac1446f592087369b97d835c4be5fe713ec27a603efb8db126bcc8c1a6a#npm:13.5.7"],\
             ["@types/react-refresh", null],\
             ["@types/webpack", null],\
             ["react-refresh", "npm:0.14.0"],\
@@ -3569,7 +3569,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["next-playground", "workspace:."],\
-            ["@next/react-refresh-utils", "virtual:3e9b84b5bfb264b7dc6f968baf27f41ff74bd8a1ed1d260216ae9d595bea331df8cf2ac1446f592087369b97d835c4be5fe713ec27a603efb8db126bcc8c1a6a#npm:13.4.7"],\
+            ["@next/react-refresh-utils", "virtual:3e9b84b5bfb264b7dc6f968baf27f41ff74bd8a1ed1d260216ae9d595bea331df8cf2ac1446f592087369b97d835c4be5fe713ec27a603efb8db126bcc8c1a6a#npm:13.5.7"],\
             ["@types/node", "npm:20.1.1"],\
             ["@types/react", "npm:18.2.14"],\
             ["@types/react-dom", "npm:18.2.6"],\
